@@ -1,0 +1,27 @@
+TOKBTOKB1234
+2025-02-22T15:04:06.247	buyShares	shareID: NYKE100925 shareType: Bonus quantity: 5 Result: 
+No shares found for Bonus:NYKE100925
+
+2025-02-22T15:05:39.101	buyShares	shareID: LONM100925 shareType: Bonus quantity: 5 Result: 
+Successfully purchased 5 of (Bonus:LONM100925) shares for the user TOKBTOKB1234
+
+2025-02-22T15:05:53.997	getShares	Result: Server: NYK
+
+Server:NYK
+No shares of buyer - TOKBTOKB1234 found in server:NYK
+Server: localhost
+
+Server:LON
+Bonus
+LONM100925 : 5
+Server: NYK
+
+Server:NYK
+No shares of buyer - TOKBTOKB1234 found in server:NYK
+
+2025-02-22T15:06:05.666	buyShares	shareID: NYKE100925 shareType: Bonus quantity: 3 Result: 
+No shares found for Bonus:NYKE100925
+
+2025-02-22T15:06:35.823	buyShares	shareID: NYKE100925 shareType: Bonus quantity: 4 Result: 
+No shares found for Bonus:NYKE100925
+

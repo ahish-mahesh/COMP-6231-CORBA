@@ -1,0 +1,4 @@
+TOKA1445
+2025-02-22T15:07:44.371	addShares	shareID: TOKA100925 shareType: Bonus capacity: 66 Result: Invalid shareID provided creating share. Please enter a valid ID (e.g. NYKM101025, TOKE101225).
+2025-02-22T15:08:03.598	addShares	shareID: TOKE100925 shareType: Bonus capacity: 66 Result: Invalid shareID provided creating share. Please enter a valid ID (e.g. NYKM101025, TOKE101225).
+2025-02-22T15:11:14.155	addShares	shareID: TOKM100925 shareType: Bonus capacity: 66 Result: Invalid shareID provided creating share. Please enter a valid ID (e.g. NYKM101025, TOKE101225).

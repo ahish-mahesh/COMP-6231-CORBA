@@ -1,0 +1,21 @@
+module DSMSModule {
+
+    interface DSMS {
+
+        // Admin roles
+        string addShare(in string shareID, in string shareType, in long capacity);
+
+        string removeShare(in string shareID, in string shareType);
+
+        string listShareAvailability(in string shareType);
+
+        // Buyer roles
+        string purchaseShare(in string buyerID, in string shareID, in string shareType, in long shareCount);
+
+        string getShares(in string buyerID);
+
+        string sellShare(in string buyerID, in string shareID, in long shareCount);
+
+        string swapShares(in string buyerID, in string oldShareID, in string oldShareType, in string newShareID, in string newShareType);
+    };
+};

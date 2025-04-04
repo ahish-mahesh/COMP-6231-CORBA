@@ -1,0 +1,40 @@
+LONB1002
+2025-03-02T14:53:06.613	buyShares	shareID: NYKM100925 shareType: Bonus quantity: 20 Result: 
+Successfully purchased 20 of (Bonus:NYKM100925) shares for the user LONB1002
+
+2025-03-02T14:53:27.612	swapShares	oldShareID: NYKM100925 oldShareType: Bonus newShareID: LONM100925 newShareType: Equity Result: The buyer does not have enough new shares to swap
+2025-03-02T14:53:51.826	swapShares	oldShareID: NYKM100925 oldShareType: Bonus newShareID: TOKM100925 newShareType: Equity Result: Shares available for the user are 20. So selling all shares available.
+Successfully sold 20 of (NYKM100925) shares for the user LONB1002
+Successfully purchased 20 of (Equity:TOKM100925) shares for the user LONB1002
+
+2025-03-02T14:54:05.321	getShares	Result: Server: localhost
+
+Server:NYK
+Bonus
+Server: LON
+
+Server:LON
+No shares of buyer - LONB1002 found in server:LON
+Server: localhost
+
+Server:TOK
+Equity
+TOKM100925 : 20
+
+2025-03-02T14:54:43.704	swapShares	oldShareID: TOKM100925 oldShareType: Equity newShareID: NYKM100925 newShareType: Bonus Result: Shares available for the user are 20. So selling all shares available.
+Successfully sold 20 of (TOKM100925) shares for the user LONB1002
+You have already made a purchase under this shareID and shareType. No more purchases are allowed.
+
+2025-03-02T14:54:47.944	getShares	Result: Server: localhost
+
+Server:NYK
+Bonus
+Server: LON
+
+Server:LON
+No shares of buyer - LONB1002 found in server:LON
+Server: localhost
+
+Server:TOK
+Equity
+

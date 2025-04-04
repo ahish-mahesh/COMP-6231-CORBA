@@ -1,0 +1,7 @@
+NYKA1001
+2025-03-11T19:35:01.719	addShares	shareID: NYKM100925 shareType: Equity capacity: 10 Result: Successfully added 10 shares to (Equity, NYKM100925)
+2025-03-11T19:35:01.719	listShareAvailability	shareType: Equity Result: NYKM100925 18, 
+NYKM101025 10
+LONM101025 15
+TOKM101125 20
+

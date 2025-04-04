@@ -1,0 +1,35 @@
+@startuml SwapSharesActivityDiagram
+
+title Activity Diagram for swapShares Method
+
+start
+
+:Initialize variables;
+
+
+:Get buyer's old share quantity;
+
+if (sharesToBeSwapped > 0?) then (yes)
+
+:Get new share quantity;
+
+  if (newShareCount >= sharesToBeSwapped?) then (yes)
+    :Purchase new shares;
+    if (Purchase successful?) then (yes)
+      :Sell old shares;
+      :Combine result messages;
+    else (no)
+      :Set result to purchase error message;
+    endif
+  else (no)
+    :Set error message "Not enough new shares to swap";
+  endif
+else (no)
+  :Set error message "Buyer does not have old share to swap";
+endif
+
+:Return result message;
+
+stop
+
+@enduml
